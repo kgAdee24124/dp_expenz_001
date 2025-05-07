@@ -1,3 +1,4 @@
+import 'package:expenz/screens/onboard_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,17 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: "Poppins"),
-      home: Scaffold(
-        body: Center(
-          child: Text(
-            "Hello Flutter",
-            style: TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.w500,
-            ),
-          ),
-        ),
-      ),
+      home: OnboardScreen(),
     );
   }
 }
